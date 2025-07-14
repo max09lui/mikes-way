@@ -17,19 +17,24 @@ function App() {
 
   const hashMap = {};
 
-  hashMap[1] = "let mike have way = true;;";
-  hashMap[2] = "<mike's way/>";
-  hashMap[3] = "for way in mike's_way: print(way)";
-  hashMap[4] = "sudo curl mike's_way";
-  hashMap[5] = "cd ~/mike's_way"
-  hashMap[6] = "cat mike's_way/root"
-  hashMap[7] =""
-  hashMap[8] =""
-  hashMap[9] =""
-  hashMap[10] =""
+  hashMap[1] = "let mike have way = true;;"; // ocaml
+  hashMap[2] = "<mike's way/>"; // html
+  hashMap[3] = "for way in mike's_way: print(way)"; // linux
+  hashMap[4] = "sudo curl mike's_way"; // linux 
+  hashMap[5] = "cd ~/mike's_way" // linux
+  hashMap[6] = "cat mike's_way/root" // linux
+  hashMap[7] = "print(mike[\"way\"])" //python
+  hashMap[8] = "cout << mikes[\"way\"]" //c++
+  hashMap[9] = "?- mikes(WAY)= ways" // prolog
+  hashMap[10]= "(mikes way);" // scheme
+  hashMap[11]= "mov way mike's_way" // x86
+  hashMap[12]= "import {way} from 'mike's way'" // x86
 
-  const randomNum = Math.floor(Math.random() * 12) + 1
-  if (randomNum > 6)
+  
+
+
+  const randomNum = Math.floor(Math.random() * 20) + 1
+  if (randomNum > 10)
   {
     setIsLoaded(true)
   }

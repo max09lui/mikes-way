@@ -4,17 +4,32 @@ import { FaLinkedin} from "react-icons/fa"
 import { FaGithub} from "react-icons/fa"
 import { CiMail } from "react-icons/ci";
 import { IoMailSharp } from "react-icons/io5";
+import { FaFilePdf } from "react-icons/fa";
 
 
 const link= "https://media.licdn.com/dms/image/v2/D5603AQH_yKP4j5S-YA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719894512281?e=1757548800&v=beta&t=UPOGCqkrfzhs2DFOqE7qmRA34g6f1uhYXDNieFlFI7s"
 
 export const Home = () => {
 
+    /*
+    <div className="text-center z-10 px-4 flex justify-center">
+                <a
+                            href="https://drive.google.com/file/d/1lJD9twCT5Fk5WQAj5E_81KF-kgzSKdKA/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-0 text-blue-500 hover:underline"
+                        >
+                            <FaFilePdf />
+                            <b>Resume</b>
+                        </a></div>
+    */
+
     return (
     <section 
         id="home" 
         className="min-h-screen flex items-center justify-center relative"
     >
+        
 
         <RevealOnScroll>
         
@@ -31,7 +46,7 @@ export const Home = () => {
                     Hi, I'm Michael Lui
                 </h1>
                 <div className="flex justify-center gap-3">
-                    
+                        
                         <a
                             href="https://www.linkedin.com/in/michael-lui-a244771b7/"
                             target="_blank"
@@ -60,8 +75,10 @@ export const Home = () => {
                             <IoMailSharp />
                             <b>max09lui@g.ucla.edu</b>
                         </a>
+                        
                     
                 </div>
+                
                 
                 
                 
