@@ -8,6 +8,14 @@ export const Contact = () => {
     message: "",
   });
 
+  const images = [
+  "https://picsum.photos/id/1015/600/400",
+  "https://picsum.photos/id/1016/600/400",
+  "https://picsum.photos/id/1018/600/400",
+  "https://picsum.photos/id/1020/600/400",
+  "https://picsum.photos/id/1021/600/400",
+];
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -40,13 +48,11 @@ export const Contact = () => {
         
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            Interested in Tutoring, <br></br>lets get In Touch
+            Interested in contacting me?
             
           </h2>
           <p>
-          I have worked with 200+ unique students, I am proficient in teaching and tutoring in all 
-          highschool and lower div college mathematics and I am offering <span  class="hover:-translate-y-1 transition-transform duration-300"><u><b> free math tutoring</b></u></span>. <br></br>
-          If interested please contact me below:
+          For any interest in job recruiting, internships, or research, please send me a message below:
         </p>
         <br></br>
           <form className="space-y-6" onSubmit={handleSubmit}>

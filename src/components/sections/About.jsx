@@ -63,7 +63,7 @@ export const About = () => {
                         (2022-2025)
                     </li>
                     <li>
-                        <b>relevant coursework:</b> Lin Alg, Stoch Proc, Opt, Prob and Stats, Algos, ML, OS, Prog Langs
+                        <b>relevant coursework:</b> Software Construction, Algorithms, Machine Learning, Operating Systems, Programming Languages
                     </li>
                 </ul>
             </div>

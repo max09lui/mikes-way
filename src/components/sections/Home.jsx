@@ -83,7 +83,8 @@ export const Home = () => {
                 
                 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    Aspiring mathematician and computer scientist, interested in optimizing and exploiting ineffincies seen in today's financial markets
+                    Aspiring full-stack developer, interested in optimizing and exploiting ineffincies seen in today's financial markets
+                    {/* Aspiring mathematician and computer scientist, interested in optimizing and exploiting ineffincies seen in today's financial markets */}
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden 

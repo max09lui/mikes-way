@@ -52,7 +52,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     className='text-grey-300 hove:text-white transiton-colors'
                 >
                     {" "}
-                    Tutoring{" "}
+                    Contact{" "}
                 </a>
             </div>
 
