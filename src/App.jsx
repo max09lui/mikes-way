@@ -18,7 +18,7 @@ function App() {
 
   hashMap[1] = "let mike have way = true;;"; // ocaml
   hashMap[2] = "<mike's way/>"; // html
-  hashMap[3] = "for way in mike's_way: print(way)"; // linux
+  hashMap[3] = "for way in mike's_way: print(way)"; // python
   hashMap[4] = "sudo curl mike's_way"; // linux 
   hashMap[5] = "cd ~/mike's_way" // linux
   hashMap[6] = "cat mike's_way/root" // linux
@@ -27,7 +27,7 @@ function App() {
   hashMap[9] = "?- mikes(WAY)= ways" // prolog
   hashMap[10]= "(mikes way);" // scheme
   hashMap[11]= "mov way mike's_way" // x86
-  hashMap[12]= "import {way} from 'mike's way'" // x86
+  hashMap[12]= "import {way} from \"mike's way\"" // x86
 
 
   const randomNum = Math.floor(Math.random() * 24) + 1
